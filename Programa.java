@@ -19,7 +19,7 @@ public class Programa {
 		
 		System.out.println("\tDados do Produto: " + produtos);
 		System.out.println();
-		System.out.print("Entre com os numeros dos produtos para serem adicionados no estoque ");
+		System.out.print("Coloque a quantidade de produtos que será adicionada no estoque ");
 		int quantidade = sc.nextInt(); 
 		produtos.addProdutos(quantidade);
 		
@@ -27,7 +27,7 @@ public class Programa {
 		System.out.println("Dados Atualizados: " + produtos);
 		
 		System.out.println();
-		System.out.println("Coloque os numeros dos produtos a serem removidos do estoque ");
+		System.out.println("Coloque a quantidade que será removida do estoque ");
 		quantidade = sc.nextInt();
 		produtos.removerProdutos(quantidade);
 		
